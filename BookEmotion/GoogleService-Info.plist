@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1076510015066-t18r9248ma7937q6n522uc595p288iuc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1076510015066-t18r9248ma7937q6n522uc595p288iuc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1076510015066-64j59faf316hsu3bbqipi93q2hkl0j7q.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDmWiemgOkMbCHZ2bYYmPq6S4TZQA7AarU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1076510015066</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.xinyus3.BookEmotion</string>
+	<key>PROJECT_ID</key>
+	<string>web-test-5a8d2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>web-test-5a8d2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1076510015066:ios:3819195dfc96c1dd13a263</string>
+	<key>DATABASE_URL</key>
+	<string>https://web-test-5a8d2.firebaseio.com</string>
+</dict>
+</plist>

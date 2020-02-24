@@ -3,19 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CD02A90D002F356DA73728C /* Pods_BookEmotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAABDAA87BBB8125ED49332F /* Pods_BookEmotion.framework */; };
+		2617F88F23F4C3C400F842B2 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2617F88E23F4C3C400F842B2 /* AudioPlayer.swift */; };
+		26248BA923F522DB00C43F54 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26248BA823F522DB00C43F54 /* HistoryView.swift */; };
+		26274D8F23F8CF4B00293EA3 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26274D8E23F8CF4B00293EA3 /* Loader.swift */; };
 		2629034023EA3DFC00C08CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629033F23EA3DFC00C08CC2 /* AppDelegate.swift */; };
 		2629034223EA3DFC00C08CC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629034123EA3DFC00C08CC2 /* SceneDelegate.swift */; };
 		2629034423EA3DFC00C08CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629034323EA3DFC00C08CC2 /* ContentView.swift */; };
 		2629034623EA3DFE00C08CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2629034523EA3DFE00C08CC2 /* Assets.xcassets */; };
 		2629034923EA3DFE00C08CC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2629034823EA3DFE00C08CC2 /* Preview Assets.xcassets */; };
 		2629034C23EA3DFE00C08CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2629034A23EA3DFE00C08CC2 /* LaunchScreen.storyboard */; };
+		2629035723EA3F5E00C08CC2 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629035623EA3F5E00C08CC2 /* LogInView.swift */; };
+		2629035923EA442B00C08CC2 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629035823EA442B00C08CC2 /* SessionStore.swift */; };
+		2629035C23EA467E00C08CC2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629035B23EA467E00C08CC2 /* User.swift */; };
+		262BD0F023F2747F00DB7380 /* EmptyLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262BD0EF23F2747F00DB7380 /* EmptyLibraryView.swift */; };
+		266D105923EADD330034945B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D105823EADD330034945B /* Book.swift */; };
+		267484DE23EF9A230026A432 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267484DD23EF9A230026A432 /* NotificationService.swift */; };
+		267484E223EF9A230026A432 /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 267484DB23EF9A230026A432 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		267484E923EFE1930026A432 /* BookDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 267484E723EFE1930026A432 /* BookDataModel.xcdatamodeld */; };
+		269621CC23F2C8DA00BA8DD8 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269621CB23F2C8DA00BA8DD8 /* RecordingView.swift */; };
+		26A1D05823EA50770043F204 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A1D05723EA50770043F204 /* SignUpView.swift */; };
+		26A1D05C23EA5C290043F204 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A1D05B23EA5C290043F204 /* SettingsView.swift */; };
+		26A1D05F23EA5C6D0043F204 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A1D05E23EA5C6D0043F204 /* LibraryView.swift */; };
+		26A1D06123EA5D500043F204 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A1D06023EA5D500043F204 /* BottomBarView.swift */; };
+		26F105DA23F3F0060076FC97 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F105D923F3F0060076FC97 /* AudioRecorder.swift */; };
+		26F105DF23F3FCC80076FC97 /* HeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F105DE23F3FCC80076FC97 /* HeaderLabel.swift */; };
+		26F105E223F3FD410076FC97 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F105E123F3FD410076FC97 /* ViewExtension.swift */; };
+		26F105E423F407DA0076FC97 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F105E323F407DA0076FC97 /* SwiftUIView.swift */; };
+		26FB4A6223EEE113003B2C1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26FB4A6123EEE112003B2C1A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		267484E023EF9A230026A432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2629033423EA3DFC00C08CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267484DA23EF9A230026A432;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26D42C9523EBD9E9004B6A96 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				267484E223EF9A230026A432 /* NotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1FBD91C67E1B0FBD114EBF6F /* Pods-BookEmotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookEmotion.release.xcconfig"; path = "Target Support Files/Pods-BookEmotion/Pods-BookEmotion.release.xcconfig"; sourceTree = "<group>"; };
+		2617F88E23F4C3C400F842B2 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		26248BA823F522DB00C43F54 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		26274D8E23F8CF4B00293EA3 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		2629033C23EA3DFC00C08CC2 /* BookEmotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookEmotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2629033F23EA3DFC00C08CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2629034123EA3DFC00C08CC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,10 +74,43 @@
 		2629034823EA3DFE00C08CC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2629034B23EA3DFE00C08CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2629034D23EA3DFE00C08CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2629035623EA3F5E00C08CC2 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		2629035823EA442B00C08CC2 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		2629035B23EA467E00C08CC2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		262BD0EF23F2747F00DB7380 /* EmptyLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyLibraryView.swift; sourceTree = "<group>"; };
+		266D105823EADD330034945B /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		267484DB23EF9A230026A432 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		267484DD23EF9A230026A432 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		267484DF23EF9A230026A432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267484E623EFCB920026A432 /* NotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		267484E823EFE1930026A432 /* BookDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookDataModel.xcdatamodel; sourceTree = "<group>"; };
+		269621CB23F2C8DA00BA8DD8 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		26A1D05723EA50770043F204 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		26A1D05B23EA5C290043F204 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		26A1D05E23EA5C6D0043F204 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		26A1D06023EA5D500043F204 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		26A1D06223EA76840043F204 /* BookEmotion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BookEmotion.entitlements; sourceTree = "<group>"; };
+		26F105D923F3F0060076FC97 /* AudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		26F105DE23F3FCC80076FC97 /* HeaderLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLabel.swift; sourceTree = "<group>"; };
+		26F105E123F3FD410076FC97 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		26F105E323F407DA0076FC97 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		26FB4A6123EEE112003B2C1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C50EDFB38ED2BACF762AF1D /* Pods-NotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtension.debug.xcconfig"; path = "Target Support Files/Pods-NotificationExtension/Pods-NotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		7C6482B0095A881BFF1A37F7 /* Pods-NotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtension.release.xcconfig"; path = "Target Support Files/Pods-NotificationExtension/Pods-NotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		9C40855131096173CBA9FC88 /* Pods-BookEmotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookEmotion.debug.xcconfig"; path = "Target Support Files/Pods-BookEmotion/Pods-BookEmotion.debug.xcconfig"; sourceTree = "<group>"; };
+		EAABDAA87BBB8125ED49332F /* Pods_BookEmotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookEmotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2629033923EA3DFC00C08CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD02A90D002F356DA73728C /* Pods_BookEmotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267484D823EF9A230026A432 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				2629033E23EA3DFC00C08CC2 /* BookEmotion */,
+				267484DC23EF9A230026A432 /* NotificationServiceExtension */,
 				2629033D23EA3DFC00C08CC2 /* Products */,
+				A8E31393B722A21355C4BB1E /* Pods */,
+				8E39D34373995DDE802B9588 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				2629033C23EA3DFC00C08CC2 /* BookEmotion.app */,
+				267484DB23EF9A230026A432 /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +143,24 @@
 		2629033E23EA3DFC00C08CC2 /* BookEmotion */ = {
 			isa = PBXGroup;
 			children = (
-				2629033F23EA3DFC00C08CC2 /* AppDelegate.swift */,
+				26F105E023F3FD370076FC97 /* Extensions */,
+				26F105DB23F3FC2A0076FC97 /* Modifiers */,
+				266D105723EADD230034945B /* Models */,
+				26A1D06223EA76840043F204 /* BookEmotion.entitlements */,
+				267484E723EFE1930026A432 /* BookDataModel.xcdatamodeld */,
+				26A1D05D23EA5C2D0043F204 /* Views */,
 				2629034123EA3DFC00C08CC2 /* SceneDelegate.swift */,
+				26F105D923F3F0060076FC97 /* AudioRecorder.swift */,
+				2617F88E23F4C3C400F842B2 /* AudioPlayer.swift */,
+				2629035823EA442B00C08CC2 /* SessionStore.swift */,
+				2629033F23EA3DFC00C08CC2 /* AppDelegate.swift */,
 				2629034323EA3DFC00C08CC2 /* ContentView.swift */,
 				2629034523EA3DFE00C08CC2 /* Assets.xcassets */,
 				2629034A23EA3DFE00C08CC2 /* LaunchScreen.storyboard */,
+				26FB4A6123EEE112003B2C1A /* GoogleService-Info.plist */,
 				2629034D23EA3DFE00C08CC2 /* Info.plist */,
 				2629034723EA3DFE00C08CC2 /* Preview Content */,
+				26F105E323F407DA0076FC97 /* SwiftUIView.swift */,
 			);
 			path = BookEmotion;
 			sourceTree = "<group>";
@@ -75,6 +173,76 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		266D105723EADD230034945B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2629035B23EA467E00C08CC2 /* User.swift */,
+				266D105823EADD330034945B /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		267484DC23EF9A230026A432 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				267484E623EFCB920026A432 /* NotificationServiceExtension.entitlements */,
+				267484DD23EF9A230026A432 /* NotificationService.swift */,
+				267484DF23EF9A230026A432 /* Info.plist */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		26A1D05D23EA5C2D0043F204 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2629035623EA3F5E00C08CC2 /* LogInView.swift */,
+				26A1D05723EA50770043F204 /* SignUpView.swift */,
+				26A1D05E23EA5C6D0043F204 /* LibraryView.swift */,
+				26A1D05B23EA5C290043F204 /* SettingsView.swift */,
+				26A1D06023EA5D500043F204 /* BottomBarView.swift */,
+				262BD0EF23F2747F00DB7380 /* EmptyLibraryView.swift */,
+				269621CB23F2C8DA00BA8DD8 /* RecordingView.swift */,
+				26248BA823F522DB00C43F54 /* HistoryView.swift */,
+				26274D8E23F8CF4B00293EA3 /* Loader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26F105DB23F3FC2A0076FC97 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				26F105DE23F3FCC80076FC97 /* HeaderLabel.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		26F105E023F3FD370076FC97 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26F105E123F3FD410076FC97 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8E39D34373995DDE802B9588 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAABDAA87BBB8125ED49332F /* Pods_BookEmotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8E31393B722A21355C4BB1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C40855131096173CBA9FC88 /* Pods-BookEmotion.debug.xcconfig */,
+				1FBD91C67E1B0FBD114EBF6F /* Pods-BookEmotion.release.xcconfig */,
+				6C50EDFB38ED2BACF762AF1D /* Pods-NotificationExtension.debug.xcconfig */,
+				7C6482B0095A881BFF1A37F7 /* Pods-NotificationExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,18 +250,39 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2629035023EA3DFE00C08CC2 /* Build configuration list for PBXNativeTarget "BookEmotion" */;
 			buildPhases = (
+				885C261615E5D28578FB73B3 /* [CP] Check Pods Manifest.lock */,
 				2629033823EA3DFC00C08CC2 /* Sources */,
 				2629033923EA3DFC00C08CC2 /* Frameworks */,
 				2629033A23EA3DFC00C08CC2 /* Resources */,
+				13118665AA47BB890C24C1B8 /* [CP] Embed Pods Frameworks */,
+				26D42C9523EBD9E9004B6A96 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				267484E123EF9A230026A432 /* PBXTargetDependency */,
 			);
 			name = BookEmotion;
 			productName = BookEmotion;
 			productReference = 2629033C23EA3DFC00C08CC2 /* BookEmotion.app */;
 			productType = "com.apple.product-type.application";
+		};
+		267484DA23EF9A230026A432 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267484E523EF9A230026A432 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				267484D723EF9A230026A432 /* Sources */,
+				267484D823EF9A230026A432 /* Frameworks */,
+				267484D923EF9A230026A432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationServiceExtension;
+			productName = NotificationServiceExtension;
+			productReference = 267484DB23EF9A230026A432 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +295,9 @@
 				ORGANIZATIONNAME = "Xinyu Sun";
 				TargetAttributes = {
 					2629033B23EA3DFC00C08CC2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					267484DA23EF9A230026A432 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -124,6 +316,7 @@
 			projectRoot = "";
 			targets = (
 				2629033B23EA3DFC00C08CC2 /* BookEmotion */,
+				267484DA23EF9A230026A432 /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -136,10 +329,60 @@
 				2629034C23EA3DFE00C08CC2 /* LaunchScreen.storyboard in Resources */,
 				2629034923EA3DFE00C08CC2 /* Preview Assets.xcassets in Resources */,
 				2629034623EA3DFE00C08CC2 /* Assets.xcassets in Resources */,
+				26FB4A6223EEE113003B2C1A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267484D923EF9A230026A432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13118665AA47BB890C24C1B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookEmotion/Pods-BookEmotion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookEmotion/Pods-BookEmotion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookEmotion/Pods-BookEmotion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		885C261615E5D28578FB73B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookEmotion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2629033823EA3DFC00C08CC2 /* Sources */ = {
@@ -147,12 +390,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				2629034023EA3DFC00C08CC2 /* AppDelegate.swift in Sources */,
+				262BD0F023F2747F00DB7380 /* EmptyLibraryView.swift in Sources */,
+				26F105E423F407DA0076FC97 /* SwiftUIView.swift in Sources */,
+				2629035923EA442B00C08CC2 /* SessionStore.swift in Sources */,
+				2629035C23EA467E00C08CC2 /* User.swift in Sources */,
+				26274D8F23F8CF4B00293EA3 /* Loader.swift in Sources */,
+				266D105923EADD330034945B /* Book.swift in Sources */,
+				26F105DF23F3FCC80076FC97 /* HeaderLabel.swift in Sources */,
+				26A1D06123EA5D500043F204 /* BottomBarView.swift in Sources */,
+				26A1D05C23EA5C290043F204 /* SettingsView.swift in Sources */,
+				267484E923EFE1930026A432 /* BookDataModel.xcdatamodeld in Sources */,
+				26A1D05F23EA5C6D0043F204 /* LibraryView.swift in Sources */,
+				26F105DA23F3F0060076FC97 /* AudioRecorder.swift in Sources */,
+				2617F88F23F4C3C400F842B2 /* AudioPlayer.swift in Sources */,
+				26A1D05823EA50770043F204 /* SignUpView.swift in Sources */,
+				269621CC23F2C8DA00BA8DD8 /* RecordingView.swift in Sources */,
 				2629034223EA3DFC00C08CC2 /* SceneDelegate.swift in Sources */,
+				26F105E223F3FD410076FC97 /* ViewExtension.swift in Sources */,
+				26248BA923F522DB00C43F54 /* HistoryView.swift in Sources */,
+				2629035723EA3F5E00C08CC2 /* LogInView.swift in Sources */,
 				2629034423EA3DFC00C08CC2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		267484D723EF9A230026A432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267484DE23EF9A230026A432 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		267484E123EF9A230026A432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267484DA23EF9A230026A432 /* NotificationServiceExtension */;
+			targetProxy = 267484E023EF9A230026A432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2629034A23EA3DFE00C08CC2 /* LaunchScreen.storyboard */ = {
@@ -282,8 +559,11 @@
 		};
 		2629035123EA3DFE00C08CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C40855131096173CBA9FC88 /* Pods-BookEmotion.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BookEmotion/BookEmotion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BookEmotion/Preview Content\"";
 				DEVELOPMENT_TEAM = 3Y3B5KQ83A;
@@ -296,14 +576,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinyus3.BookEmotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2629035223EA3DFE00C08CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBD91C67E1B0FBD114EBF6F /* Pods-BookEmotion.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BookEmotion/BookEmotion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BookEmotion/Preview Content\"";
 				DEVELOPMENT_TEAM = 3Y3B5KQ83A;
@@ -315,6 +598,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinyus3.BookEmotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		267484E323EF9A230026A432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y3B5KQ83A;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinyus3.BookEmotion.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		267484E423EF9A230026A432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y3B5KQ83A;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinyus3.BookEmotion.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,7 +664,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		267484E523EF9A230026A432 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267484E323EF9A230026A432 /* Debug */,
+				267484E423EF9A230026A432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		267484E723EFE1930026A432 /* BookDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				267484E823EFE1930026A432 /* BookDataModel.xcdatamodel */,
+			);
+			currentVersion = 267484E823EFE1930026A432 /* BookDataModel.xcdatamodel */;
+			path = BookDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2629033423EA3DFC00C08CC2 /* Project object */;
 }

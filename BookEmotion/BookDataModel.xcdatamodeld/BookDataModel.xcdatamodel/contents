@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Books" representedClassName="Books" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="finishQuestion" optional="YES" attributeType="String"/>
+        <attribute name="halfwayQuestion" optional="YES" attributeType="String"/>
+        <attribute name="imageURL" optional="YES" attributeType="URI"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="startQuestion" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FinishRecordings" representedClassName="FinishRecordings" syncable="YES" codeGenerationType="class">
+        <attribute name="audioURL" optional="YES" attributeType="URI"/>
+        <attribute name="bookName" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="HalfwayRecordings" representedClassName="HalfwayRecordings" syncable="YES" codeGenerationType="class">
+        <attribute name="audioURL" optional="YES" attributeType="URI"/>
+        <attribute name="bookName" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="StartRecordings" representedClassName="StartRecordings" syncable="YES" codeGenerationType="class">
+        <attribute name="audioURL" optional="YES" attributeType="URI"/>
+        <attribute name="bookName" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Submission" representedClassName="Submission" syncable="YES" codeGenerationType="class">
+        <attribute name="bookName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="stage" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="continent" optional="YES" attributeType="String"/>
+        <attribute name="educationLevel" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Books" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="FinishRecordings" positionX="-36" positionY="54" width="128" height="88"/>
+        <element name="HalfwayRecordings" positionX="-54" positionY="45" width="128" height="88"/>
+        <element name="StartRecordings" positionX="-63" positionY="36" width="128" height="88"/>
+        <element name="Submission" positionX="-36" positionY="54" width="128" height="88"/>
+        <element name="UserInfo" positionX="-63" positionY="9" width="128" height="133"/>
+    </elements>
+</model>
